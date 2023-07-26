@@ -1,0 +1,59 @@
+
+
+.homeBlock {
+    align-items: center;
+    background: rgba(255, 255, 255, 0.7); ;
+    border-radius: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 145px 40px 40px;
+    position: relative;
+    width: 400px;
+}
+
+.homeBlock img {
+    border-radius: 50%;
+    outline: 1px solid #89a1fa;
+    border: 2px solid #FFF;
+    height: 180px;
+    position: absolute;
+    top: -40px;
+    width: 180px;
+}
+
+.homeBlock h2 {
+    color: #918f97;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    text-indent: 10px;
+}
+
+.homeBlock h4 {
+    font-size: 16px;
+    color: #333;
+    line-height: 18px;
+    margin: 0;
+    max-width: 200px;
+    text-align: center;
+}
+
+.blockResume {
+    border-bottom: 1px dotted #ccc;
+    border-top: 1px dotted #ccc;
+    color: #333;
+    display: flex;
+    font-size: 14px;
+    margin: 20px 0 0;
+    padding: 10px 0 10px 0;
+    text-align: justify;
+    font-weight: 900;
+}
+
+.blockResume p {
+    margin: 0;
+}

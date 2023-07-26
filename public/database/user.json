@@ -1,0 +1,15 @@
+
+[
+    {
+		"name": "Franco",
+		"date": "29/03/2023",
+        "description": "Recomiendo al 100% sus terapias, fue un gran apoyo desde la sesión uno y con bastante compromiso y dedicación a su profesión, logré conocer mis puntos más débiles y como fortalecerlos hasta el día de hoy, feliz de haber progresado gracias al trabajo constante de una muy buena psicóloga",
+		"avatar": ""
+	},
+	{
+		"name": "Pamela Aguila",
+		"date": "24/03/2023",
+        "description": "Recomiendo al 100% sus terapias, fue un gran apoyo desde la sesión uno y con bastante compromiso y dedicación a su profesión, logré conocer mis puntos más débiles y como fortalecerlos hasta el día de hoy, feliz de haber progresado gracias al trabajo constante de una muy buena psicóloga",
+		"avatar": "./images/foto1.png"
+	}
+]
