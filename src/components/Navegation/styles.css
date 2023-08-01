@@ -1,20 +1,23 @@
 .navegation {
-    color: #333;
-    font-size: 15px;
+    font-size: 17px;
     list-style: none;
     margin: 0;
     padding: 0 0 0 15px;
 }
 
-.navegation li {
+.navegation a {
+    color: #656c7f;
+    display: flex;
     padding: 5px 10px;
 }
 
-.navegation li:hover {
+.navegation a:hover {
     background: #FFF;
     border-radius: 10px;
     box-sizing: border-box;
-    color: #333;
+    color: #656c7f;
     cursor: pointer;
+    display: flex;
     padding: 5px 10px;
+    
 }

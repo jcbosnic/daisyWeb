@@ -1,0 +1,71 @@
+.comentsBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.comentsBlock h1 {
+    color: #918f97;
+    font-size: 35px;
+    margin: 0;
+}
+
+.usersBlock {
+    border-top: 1px dotted #CCC;
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0 0;
+    padding: 10px 0 0;
+}
+
+.avatarImage {
+    height: 70px;
+    width: 70px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    outline: 2px solid #89a1fa;
+}
+
+.avatarNoImage {
+    background-color: #6699ff;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    box-sizing: border-box; 
+    color: #FFFFFF;
+    font-size: 0;
+    font-weight: bold;
+    height: 70px;
+    min-width: 70px;
+    outline: 2px solid #89a1fa;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.avatarNoImage::first-letter {
+    display: flex;
+    font-size: 35px;    
+}
+
+.sectionInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 10px;
+}
+
+.sectionInfo p {
+    color: #656c7f;
+    text-align: justify;
+}
+
+.sectionInfoName {
+    font-size: 18px;
+}
+
+.sectionInfoDate {
+    font-size: 12px;
+    color: #CCC!important;
+}
+
+.sectionInfoDescription {
+    font-size: 14px;
+}
+
