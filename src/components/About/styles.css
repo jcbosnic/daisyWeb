@@ -1,0 +1,15 @@
+.blockInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.blockInfo h1 {
+    color: #708bad;
+    font-size: 35px;
+    padding: 0 0 10px 0;
+}
+
+.blockInfo p {
+    color: #708bad;
+    font-size: 14px;
+}

@@ -1,7 +1,9 @@
-import Home from "./components/Home"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from "./components/home"
 import Navegation from "./components/Navegation"
 import Coments from "./components/Coments"
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Contact from "./components/Contact"
+import About from "./components/About"
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
             <Routes>
             <Route path="/" element={ <Home /> } />
             <Route path="coments" element={ <Coments /> } />
+            <Route path="contact" element={ <Contact /> } />
+            <Route path="about" element={ <About /> } />
             </Routes>
           </section>
           <Navegation />

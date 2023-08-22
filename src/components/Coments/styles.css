@@ -4,7 +4,7 @@
 }
 
 .comentsBlock h1 {
-    color: #918f97;
+    color: #708bad;
     font-size: 35px;
     margin: 0;
 }
@@ -41,7 +41,6 @@
 }
 
 .avatarNoImage::first-letter {
-    display: flex;
     font-size: 35px;    
 }
 
@@ -52,8 +51,7 @@
 }
 
 .sectionInfo p {
-    color: #656c7f;
-    text-align: justify;
+    color: #8599b3;
 }
 
 .sectionInfoName {
@@ -62,10 +60,53 @@
 
 .sectionInfoDate {
     font-size: 12px;
-    color: #CCC!important;
+    color: #CCC;
 }
 
 .sectionInfoDescription {
     font-size: 14px;
 }
 
+.hideBlockComents {
+    display: flex;
+    flex-direction: column;
+    max-height: 550px;
+}
+
+
+
+/* Media query hight resolution*/
+@media (min-width: 2000px) {
+  .comentsBlock h1 {
+    font-size: 42px;
+  }
+  
+  .avatarImage {
+    height: 100px;
+    width: 100px;
+  }
+
+  .avatarNoImage {
+    height: 100px;
+    min-width: 100px;
+    padding: 15px 0 0;
+  }
+
+  .avatarNoImage::first-letter {
+    font-size: 45px;    
+  }
+
+  .sectionInfoName {
+    font-size: 22px;
+  }
+
+  .sectionInfoDate {
+    font-size: 16px;
+  }
+
+  .sectionInfoDescription {
+    font-size: 17px;
+  }
+}
+
+/*Hide ScrollBar*/

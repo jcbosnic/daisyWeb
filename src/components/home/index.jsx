@@ -8,7 +8,7 @@ const Home = () => {
                 alt="Daisy"
                 className="avatar"
             />
-                <h2 className="avatarName">Daisy</h2>
+                <h1 className="avatarName">Daisy</h1>
                 <h4 className="">Psicóloga Clínica infanto juvenil y adultos</h4>
                 <section className="blockResume">
                     <p>

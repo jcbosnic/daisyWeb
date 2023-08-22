@@ -16,6 +16,7 @@ const Coments = () => {
     return (
       <section className='comentsBlock'>
         <h1>Comentarios</h1>
+        <div className='hideBlockComents'>
         {
             data.map((item, index) => (
               <div className='usersBlock' key={index}>
@@ -32,6 +33,7 @@ const Coments = () => {
               </div>  
             ))
         }
+        </div>
       </section>  
     )
 }

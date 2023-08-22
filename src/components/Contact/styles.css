@@ -1,0 +1,29 @@
+.blockForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.blockForm button {
+    margin: 20px 0 0 0;
+}
+
+.blockForm h1 {
+    color: #708bad;
+    font-size: 35px;
+}
+
+.messageSend {
+    color: #708bad;
+    font-size: 15px;
+    padding: 20px 0 0 0;
+    margin: 0;
+    display: flex;
+    height: 10px;
+}
+.errorMessage {
+    color : red; 
+    font-size: 14px;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
